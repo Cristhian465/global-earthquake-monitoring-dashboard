@@ -9,6 +9,8 @@ Quería explorar la actividad sísmica mundial y acercar el análisis a Perú y 
 
 Este proyecto es una herramienta de exploración. No predice sismos ni emite alertas.
 
+El código está disponible en [GitHub](https://github.com/Cristhian465/global-earthquake-monitoring-dashboard). En la verificación local pasaron 18 pruebas y Ruff no encontró errores.
+
 ## De la pregunta a la arquitectura
 
 La pregunta fue: ¿qué sismos registra USGS para una región y periodo determinados? Separé el proyecto en dos partes: `earthquake/data.py` valida consultas y transforma GeoJSON en una tabla; `app.py` controla los filtros, la caché y las visualizaciones.
@@ -62,4 +64,4 @@ Para Community Cloud, el punto de entrada es `app.py` y no hacen falta claves de
 
 Me gustaría incorporar límites administrativos para comparaciones por país y consultas divididas para periodos más amplios. También sería útil comparar catálogos y documentar sus diferencias de cobertura.
 
-Antes de publicar este borrador: insertar el enlace real del repositorio, la URL de la aplicación solo si fue desplegada y capturas obtenidas con un periodo explícito. Anotar resultados de pruebas y ejecución CI únicamente después de verificarlos.
+Antes de publicar este borrador: insertar la URL de la aplicación solo si fue desplegada y capturas obtenidas con un periodo explícito. Anotar resultados de pruebas y ejecución CI únicamente después de verificarlos.

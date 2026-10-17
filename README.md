@@ -2,6 +2,8 @@
 
 Dashboard en español para explorar sismos reales del catálogo USGS con Python, Streamlit y Plotly. Enfoque mundial, Perú y Sudamérica. No requiere API key.
 
+Repositorio público: [Cristhian465/global-earthquake-monitoring-dashboard](https://github.com/Cristhian465/global-earthquake-monitoring-dashboard).
+
 ## Funciones
 
 - Mapa mundial interactivo con zoom, tamaño por magnitud y color por profundidad.
